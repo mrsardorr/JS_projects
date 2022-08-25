@@ -10,7 +10,7 @@
 }
 
 html{
-    cursor: url('/images/meme-pop-cat-cursor.svg'), default ;
+    cursor: url('../images/meme-pop-cat-cursor.svg'), default ;
 }
 
 .score{
