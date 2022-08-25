@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+/*    font-family: 'Silkscreen', cursive;   */
+
+
+*{
+    color: #7A29FF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+
+html{
+    cursor: url('/images/meme-pop-cat-cursor.svg'), default ;
+}
+
+.score{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.score h1{
+    margin-left: 0%;
+}
+.window{
+    width: 500px;
+    height: 200px;
+    border: 2px solid #AF7EFF;
+    margin: auto;
+    margin-top: 10%;
+}
+.dino{
+    width: 20px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    background-color: #7A29FF;
+}
+.action{
+    animation: jump 500ms;
+}
+.block{
+    width: 20px;
+    height: 20px;
+    background-color: #303136;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1.2s infinite linear;
+}
+
+
+@keyframes block {
+    0%{left: 480px;}
+    100%{left:-10px}
+}
+@keyframes jump {
+    0%{top:150px}
+    35%{top:100px}
+    75%{top:100px}
+    100%{top:150px}
+}
+
+
+
+
+
+@keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  body {
+    color: #999;
+    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+    text-align: center;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    animation: bg-scrolling-reverse 0.92s infinite;
+    animation-timing-function: linear;
+    overflow: hidden;
+  }

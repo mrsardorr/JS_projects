@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+/*    font-family: 'Silkscreen', cursive;   */
+
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    font-family: 'Silkscreen', cursive;
+    color: white !important;
+}
+
+html{
+    cursor: url('images/meme-pop-cat-cursor.svg'), default ;
+
+}
+a{
+    cursor: url('images/meme-pop-cat-pointer.svg'), pointer;
+}
+body{
+    background-image: url(images/main-bg.jpg);
+}
+header{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+header ul {
+    display: flex;
+
+}
+
+header ul li a{
+    font-size: 20px;
+    margin: 0 15px;
+    position: relative;
+}
+header ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+}
+header ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+main .box{
+    /* margin: 0 15px; */
+    transition: 0.3s;
+    padding: 15px;
+}
+main .box:hover {
+    transform: scale(1.05);
+}
+
+main .box .image img{
+    width: 100%;
+    height: 30%;
+    border-radius: 30px;
+}
+
+
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

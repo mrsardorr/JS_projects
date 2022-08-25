@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+/*    font-family: 'Silkscreen', cursive;   */
+
+html{
+    cursor: url('/images/meme-pop-cat-cursor.svg'), default ;
+
+}
+h1{
+    cursor: url('/images/meme-pop-cat-pointer.svg'), pointer;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Silkscreen', cursive;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  margin-top: -10px;
+  padding: 23px 0;
+  color: whitesmoke;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -22px;
+  padding: 15px 5px;
+  border: 2px solid #303136;
+  border-width: 5px 650px;
+  color: #333642;
+  font-size: 30px;
+}
+
+.user {
+  background-color: #7A29FF;
+  position: relative;
+  left: -90px;
+  font-size: 18px;
+  color: white;
+}
+
+.comp {
+  background-color: #7A29FF;
+  position: relative;
+  right: -95px;
+  color: white;
+  font-size: 18px;
+}
+
+.userInput {
+  font-weight: bold;
+  position: absolute;
+  left: 200px;
+  top: 105px;
+  font-size: 25px;
+  color: #7A29FF;
+}
+
+.compInput {
+  font-weight: bold;
+  position: absolute;
+  right: 200px;
+  top: 105px;
+  font-size: 25px;
+  color: #7A29FF;
+}
+
+.moves {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.r {
+  border: 1px solid #AF7EFF;
+  border-width: 3px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border-right: none;
+}
+
+.r:hover {
+  border-color: #7A29FF;
+  border-width: 8px;
+}
+
+.p {
+  padding: 2px;
+  border: 1px solid #AF7EFF;
+  border-width: 3px;
+  border-radius: 50%;
+  border-left: none;
+  border-right: none;
+}
+
+.p:hover {
+  border-color: #7A29FF;
+  border-width: 8px;
+}
+
+.s {
+  padding: 2px;
+  border: 1px solid #AF7EFF;
+  border-width: 3px;
+  border-left: none;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.s:hover {
+  border-color: #7A29FF;
+  border-width: 8px;
+}
+
+
+.moveInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1d1e22;
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+
+
+
+
+@keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  body {
+    color: #7A29FF;
+    /* font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif; */
+    /* text-align: center; */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    animation: bg-scrolling-reverse 0.92s infinite;
+    animation-timing-function: linear;
+  }
