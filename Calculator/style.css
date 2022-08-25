@@ -12,14 +12,14 @@
 }
 
 html{
-    cursor: url('/images/meme-pop-cat-cursor.svg'),default ;
+    cursor: url('../images/meme-pop-cat-cursor.svg'),default ;
 
 }
 a{
-    cursor: url('/images/meme-pop-cat-pointer.svg'),pointer ;
+    cursor: url('../images/meme-pop-cat-pointer.svg'),pointer ;
 }
 button{
-    cursor: url('/images/meme-pop-cat-pointer.svg'),pointer ;
+    cursor: url('../images/meme-pop-cat-pointer.svg'),pointer ;
 }
 body{
     background-image: url(/images/main-bg.jpg);
