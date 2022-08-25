@@ -2,11 +2,11 @@
 /*    font-family: 'Silkscreen', cursive;   */
 
 html{
-    cursor: url('/images/meme-pop-cat-cursor.svg'), default ;
+    cursor: url('../images/meme-pop-cat-cursor.svg'), default ;
 
 }
 h1{
-    cursor: url('/images/meme-pop-cat-pointer.svg'), pointer;
+    cursor: url('../images/meme-pop-cat-pointer.svg'), pointer;
 }
 body{
     margin: 0;
