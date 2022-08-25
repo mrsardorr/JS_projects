@@ -4,14 +4,14 @@
     font-family: 'Silkscreen', cursive;
 }
 html{
-  cursor: url('/images/meme-pop-cat-cursor.svg'), default ;
+  cursor: url('../images/meme-pop-cat-cursor.svg'), default ;
 
 }
 .btn:not(:disabled):not(.disabled) {
-  cursor: url('/images/meme-pop-cat-pointer.svg'),text;
+  cursor: url('../images/meme-pop-cat-pointer.svg'),text;
 }
 button{
-  cursor: url('/images/meme-pop-cat-pointer.svg'),text;
+  cursor: url('../images/meme-pop-cat-pointer.svg'),text;
 }
 
 .item {
